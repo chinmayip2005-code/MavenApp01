@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/chinmayip2005-code/MymavenApp01.git'
+                git branch: 'master', url: 'https:/github.com/chinmayip2005-code/MymavenApp01.git'
             }
         }
 
@@ -44,4 +44,4 @@ pipeline {
             echo 'Build failed!'
         }
     }
-}
+
